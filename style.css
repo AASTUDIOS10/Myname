@@ -2,8 +2,9 @@ body{
   background-color: #585858
 }
 
-
 .Test{
+  background: transparent;
+  font-family: sans-serif;
   text-align: center;
   border: 2px solid #819FF7;
   width: 200px;
@@ -13,7 +14,13 @@ body{
 }
 
 .Test:hover{
+  cursor: pointer;
   border-color: #01DFD7;
   width: 300px;
   color: #01DF01
+}
+
+.Test input[type = "text"]{
+  background: none;
+  border: none;
 }
