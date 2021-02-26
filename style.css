@@ -1,26 +1,51 @@
 body{
-  background-color: #585858
+  background-color: #2c3e50
 }
 
-.Test{
+.Text{
+  margin: 10px;
   background: transparent;
   font-family: sans-serif;
   text-align: center;
-  border: 2px solid #819FF7;
+  border: 2px solid #2980b9;
+  width: 200px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: #3498db
+}
+
+.Text:hover{
+  background-color: #e1b12c;
+  cursor: auto;
+  border-color: #e1b12c;
+  color: #222f3e;
+}
+
+.Input{
+  margin: 20px 10px;
+  background: transparent;
+  font-family: sans-serif;
+  text-align: center;
+  border: 2px solid #2980b9;
   width: 200px;
   border-radius: 50px;
   text-transform: uppercase;
-  color: #58ACFA
+  color: #3498db
 }
 
-.Test:hover{
-  cursor: pointer;
-  border-color: #01DFD7;
-  width: 300px;
-  color: #01DF01
-}
-
-.Test input[type = "text"]{
+.Input input{
   background: none;
-  border: none;
+  border: 0;
+  text-transform: capitalize;
+}
+
+.Input input:hover{
+    color: #2f3640;
+}
+
+.Input:hover{
+  background-color: #2ecc71;
+  cursor: auto;
+  border-color: #2ecc71;
+  width: 250px;
 }
